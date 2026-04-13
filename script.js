@@ -1,4 +1,5 @@
 
+ 
     // HAMBURGER MENU
 
 const hamburger = document.getElementById("hamburger");
@@ -14,31 +15,40 @@ navMenu.classList.toggle("active");
 // PROJECTS USING DOM
 
 const projects = [
+{
+title:"School Management Software (Website)",
+desc:"Responsive  Management Software (Website) created during internship.",
+live:"https://aawasbuilding.com/demo/montera/index",
+},
+    
+{
+title:"Marine Services Website",
+desc:"Responsive  Marine Services Website created during internship.",
+live:"https://aawasbuilding.com/demo/ship-management/index",
+},
 
 {
-title:"Export Business Website",
+title:"Import Export Website",
 desc:"Responsive business website created during internship.",
-live:"#",
-github:"#"
+live:"https://swarajnutrispice.com/",
+github:"",
 },
 
 {
-title:"Counter App",
-desc:"JavaScript counter using DOM manipulation.",
-live:"#",
-github:"#"
+title:"Ship Management website",
+desc:"Responsive business website created during internship.",
+live:"https://bbsmopc.com/",
 },
-
+    
 {
-title:"To Do List",
-desc:"Dynamic task manager built using JavaScript.",
-live:"#",
-github:"#"
-}
-
-
+title:"Real estate Construction website",
+desc:"Responsive business website created during internship.",
+live:"https://priyacon.co.in/",
+},
 
 ];
+
+document.addEventListener("DOMContentLoaded", () => {
 
 const container = document.getElementById("projectContainer");
 
@@ -52,9 +62,12 @@ card.innerHTML = `
 <h3>${project.title}</h3>
 <p>${project.desc}</p>
 <a href="${project.live}" target="_blank">Live Project</a>
-<a href="${project.github}" target="_blank">GitHub</a>
+<a href="${project.github || '#'}" target="_blank">GitHub</a>
 `;
 
 container.appendChild(card);
 
 });
+
+});
+
