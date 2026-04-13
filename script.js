@@ -20,11 +20,19 @@ title:"School Management Software (Website)",
 desc:"Responsive  Management Software (Website) created during internship.",
 live:"https://aawasbuilding.com/demo/montera/index",
 },
-    
+
+ {
+title:"Kamdhanucity Website",
+desc:"Responsive  Marine Services Website created during internship.",
+live:"https://kamdhenucityhome.com/",
+github:"",
+},
+ 
 {
 title:"Marine Services Website",
 desc:"Responsive  Marine Services Website created during internship.",
 live:"https://aawasbuilding.com/demo/ship-management/index",
+ github:"",
 },
 
 {
@@ -38,12 +46,14 @@ github:"",
 title:"Ship Management website",
 desc:"Responsive business website created during internship.",
 live:"https://bbsmopc.com/",
+ github:"",
 },
     
 {
 title:"Real estate Construction website",
 desc:"Responsive business website created during internship.",
 live:"https://priyacon.co.in/",
+ github:"",
 },
 
 ];
