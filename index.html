@@ -208,9 +208,10 @@ card.innerHTML = `
 <h3>${project.title}</h3>
 <p>${project.desc}</p>
 <a href="${project.live}" target="_blank">Live Project</a>
-<a href="${project.github}" target="_blank">GitHub</a>
+<a href="${project.github || '#'}" target="_blank">GitHub</a>
+`;
 
-container.appendChild(card)';
+container.appendChild(card);
 
 });
 </script>
