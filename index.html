@@ -196,6 +196,8 @@ live:"https://priyacon.co.in/",
 
 ];
 
+document.addEventListener("DOMContentLoaded", () => {
+
 const container = document.getElementById("projectContainer");
 
 projects.forEach(project => {
@@ -212,6 +214,8 @@ card.innerHTML = `
 `;
 
 container.appendChild(card);
+
+});
 
 });
 </script>
